@@ -1,0 +1,10 @@
+---
+layout: none
+---
+
+{% capture css %}
+{% include css/normalize.css %}
+{% include css/h5bp-main.css %}
+{% include css/main.css %}
+{% endcapture %}
+{{ css | strip_newlines }}
