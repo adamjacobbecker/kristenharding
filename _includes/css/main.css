@@ -191,7 +191,7 @@ body {
   display: inline-block;
   width: 280px;
   vertical-align: top;
-  padding: 10px;
+  margin: 10px;
 }
 .work-page .video > img {
   width: 100%;
