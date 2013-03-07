@@ -1,0 +1,38 @@
+{% include header.ext %}
+
+<div class="sidebar">
+  <div class="current-page-logo">||</div>
+  <div class="current-page-name">{{page.title}}</div>
+  <div class="sidebar-logo"><< > || >></div>
+  <ul class="sidebar-nav">
+    <li><a href="/about">About</a></li>
+    <li><a href="/work">Work</a></li>
+    <li><a href="/resume">Resume</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
+
+<div class="content-wrapper">
+  <span class="kristen-harding">
+    Kristen <strong>Harding</strong>
+    <ul class="writer-director-editor">
+      <li>Writer</li>
+      <li>Director</li>
+      <li>Editor</li>
+    </ul>
+  </span>
+
+  <div class="content">{{ content }}</div>
+</div>
+
+<ul class="social-footer">
+  <li class="vimeo"><a href="#">V</a></li>
+  <li class="twitter"><a href="#">T</a></li>
+  <li class="linkedin"><a href="#">L</a></li>
+</ul>
+
+<div class="copyright">
+Kristen Harding &copy; 2013. Site by <a href="http://ada.mbecker.cc">Adam Becker</a>
+</div>
+
+{% include footer.ext %}
