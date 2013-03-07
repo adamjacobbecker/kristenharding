@@ -1,0 +1,24 @@
+
+<div class="sidebar">
+  <div class="current-page-logo">||</div>
+  <div class="current-page-name">{% if page.section_title%}{{page.section_title}}{% else %}{{page.title}}{%endif%}</div>
+  <div class="sidebar-logo"><< > || >></div>
+  <ul class="sidebar-nav">
+    <li><a href="/about">About</a></li>
+    <li><a href="/work">Work</a></li>
+    <li><a href="/resume">Resume</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</div>
+
+<div class="content-wrapper">
+  <a class="kristen-harding" href="/">
+    Kristen <strong>Harding</strong>
+    <ul class="writer-director-editor">
+      <li>Writer</li>
+      <li>Director</li>
+      <li>Editor</li>
+    </ul>
+  </a>
+
+  <div class="content">

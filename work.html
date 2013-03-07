@@ -1,0 +1,13 @@
+---
+layout: page
+title: Work
+---
+
+<div class="work-page">
+  {% for video in site.posts %}
+  <a class="video" href="{{video.permalink}}">
+    <img src="/img/{{video.image}}" />
+    <span>{{video.title}}</span>
+  </a>
+  {% endfor %}
+</div>
