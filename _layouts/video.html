@@ -3,7 +3,7 @@
 
 <div class="video-page">
   <div class="vimeo-embed">{{page.vimeo_url}}</div>
-  <div class="title">{{page.title}}</div>
+  <div class="title">{% if page.page_title %}{{page.page_title}}{% else %}{{page.title}}{% endif %}</div>
   <div class="description">{{page.description}}</div>
 </div>
 
