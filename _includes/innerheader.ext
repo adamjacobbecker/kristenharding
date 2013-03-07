@@ -1,8 +1,10 @@
 
 <div class="sidebar">
-  <div class="current-page-logo">||</div>
+  <div class="current-page-logo-wrapper">
+    <div class="current-page-logo current-page-{{page.page_class}}"></div>
+  </div>
   <div class="current-page-name">{% if page.section_title%}{{page.section_title}}{% else %}{{page.title}}{%endif%}</div>
-  <div class="sidebar-logo"><< > || >></div>
+  <div class="sidebar-logo"><div></div></div>
   <ul class="sidebar-nav">
     <li><a href="/about">About</a></li>
     <li><a href="/work">Work</a></li>

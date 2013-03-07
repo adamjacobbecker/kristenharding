@@ -39,33 +39,45 @@ body
 
     .nav-image-1
       display block
-      background: url('/img/sprite.png') no-repeat 0 0;
+      background: url('/img/sprite.png') no-repeat -555px -278px;
       width: 107px;
       height: 127px;
       margin-bottom 10px
 
+      &:hover
+        background: url('/img/sprite.png') no-repeat -555px -136px;
+
     .nav-image-2
       display block
-      background: url('/img/sprite.png') no-repeat -115px -13px;
+      background: url('/img/sprite.png') no-repeat -739px -291px;
       width: 83px;
       height: 106px;
       margin-top -8px
       margin-bottom 18px
 
+      &:hover
+        background: url('/img/sprite.png') no-repeat -740px -149px;
+
     .nav-image-3
       display block
-      background: url('/img/sprite.png') no-repeat -201px -13px;
+      background: url('/img/sprite.png') no-repeat -887px -289px;
       width: 73px;
       height: 105px;
       margin-top -8px
       margin-bottom 18px
 
+      &:hover
+        background: url('/img/sprite.png') no-repeat -887px -146px;
+
     .nav-image-4
       display block
-      background: url('/img/sprite.png') no-repeat -282px -1px;
+      background: url('/img/sprite.png') no-repeat -1039px -278px;
       width: 107px;
-      height: 126px;
+      height: 127px;
       margin-bottom 10px
+
+      &:hover
+        background: url('/img/sprite.png') no-repeat -1039px -137px;
 
 .sidebar, .content
   padding-top 20px
@@ -76,20 +88,50 @@ body
   text-align center
   text-transform uppercase
 
+  .current-page-logo-wrapper
+    min-height 130px
+
   .current-page-logo
-    font-size 48px
+    display block
+    margin 0 auto
+
+    &.current-page-about
+      background: url('/img/sprite.png') no-repeat -555px -136px;
+      width: 106px;
+      height: 126px;
+
+    &.current-page-contact
+      background: url('/img/sprite.png') no-repeat -1039px -137px;
+      width: 105px;
+      height: 126px;
+
+    &.current-page-work
+      background: url('/img/sprite.png') no-repeat -740px -149px;
+      width: 81px;
+      height: 104px;
+
+    &.current-page-resume
+      background: url('/img/sprite.png') no-repeat -887px -146px;
+      width: 71px;
+      height: 104px;
 
   .current-page-name
     font-weight 300
     font-size 32px
 
   .sidebar-logo
-    font-size 20px
     border-style solid
-    border-width 3px 0
+    border-width 2px 0
     border-color #222
-    padding 10px 0
+    padding 12px 0
     margin 10px 5px 0
+
+    > div
+      display block
+      margin 0 auto
+      background: url('/img/sprite.png') no-repeat -862px -44px;
+      width: 207px;
+      height: 42px;
 
   ul.sidebar-nav
     list-style none
@@ -138,22 +180,64 @@ body
 
     span
       display block
+      margin-bottom 10px
+
+  .professional
+    border-right 3px solid #222
+    padding-right 30px
+
+  .creative
+    padding-left 30px
+
+  .professional > span
+    background: url('/img/sprite.png') no-repeat -256px -18px;
+    width: 256px;
+    height: 374px;
+
+  .creative > span
+    background: url('/img/sprite.png') no-repeat -11px -9px;
+    width: 226px;
+    height: 371px;
+
 
 .footer-wrapper
   padding 30px 10px 2px
 
   .social-footer
-    float left
     list-style none
     padding 0
     margin 0
 
     li
       display inline
+      margin 0 10px
+
+      a
+        display inline-block
+        opacity(0.8)
+        transition opacity 0.2s linear
+
+        &:hover
+          opacity(1)
+
+    li.vimeo > a
+      background: url('/img/sprite.png') no-repeat -600px -42px;
+      width: 48px;
+      height: 42px;
+
+    li.twitter > a
+      background: url('/img/sprite.png') no-repeat -671px -41px;
+      width: 52px;
+      height: 42px;
+
+    li.linkedin > a
+      background: url('/img/sprite.png') no-repeat -742px -40px;
+      width: 53px;
+      height: 47px;
 
   .copyright
-    float right
     font-size 11px
+    margin 10px 0 5px
 
 .about-page
   img.kristen
@@ -184,10 +268,18 @@ body
         text-decoration none
 
         .email
-          margin-right 10px
+          display inline-block
+          margin 13px 10px -13px 0
+          background: url('/img/sprite.png') no-repeat -535px -11px;
+          width: 52px;
+          height: 38px;
 
         .phone
-          margin-right 10px
+          display inline-block
+          margin 13px 10px -13px 0
+          background: url('/img/sprite.png') no-repeat -534px -74px;
+          width: 52px;
+          height: 44px;
 
 .work-page
   .video
