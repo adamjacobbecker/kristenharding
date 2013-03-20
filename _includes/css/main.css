@@ -363,10 +363,13 @@ body {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   filter: alpha(opacity=50);
 }
-.video-page .vimeo-embed {
-  background-color: #000;
-  width: 700px;
-  height: 400px;
+.video-page .coming-soon {
+  width: 598px;
+  height: 198px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding-top: 150px;
+  color: #999;
 }
 .video-page .title {
   font-size: 18px;

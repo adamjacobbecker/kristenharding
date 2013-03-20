@@ -2,7 +2,13 @@
 {% include innerheader.ext %}
 
 <div class="video-page">
-  <div class="vimeo-embed">{{page.vimeo_url}}</div>
+  <div class="vimeo-embed">
+    {% if page.vimeo_url %}
+      <iframe src="{{page.vimeo_url}}" width="600" height="350" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    {% else %}
+      <div class="coming-soon">Coming soon</div>
+    {% endif %}
+  </div>
   <div class="title">{% if page.page_title %}{{page.page_title}}{% else %}{{page.title}}{% endif %}</div>
   <div class="description">{{page.description}}</div>
 </div>
