@@ -11,6 +11,14 @@
     <li><a href="/resume">Resume</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
+  <ul class="social-links">
+    <li class="vimeo"><a href="#"></a></li>
+    <li class="twitter"><a href="#"></a></li>
+    <li class="linkedin"><a href="#"></a></li>
+  </ul>
+  <div class="copyright">
+    Kristen Harding &copy; 2013. Site by <a href="http://ada.mbecker.cc">Adam Becker</a>.
+  </div>
 </div>
 
 <div class="content-wrapper">
