@@ -2,6 +2,7 @@
 
 body
   font-family: 'Lato', sans-serif
+  min-width 900px
 
 .clearfix
   clear both
@@ -13,7 +14,7 @@ body
   .kristen-harding
     font-size 60px
     text-transform uppercase
-    font-weight 300
+    font-weight 100
     letter-spacing 2px
     position relative
 
@@ -174,11 +175,6 @@ body
 
       a
         display inline-block
-        opacity(0.8)
-        transition opacity 0.2s linear
-
-        &:hover
-          opacity(1)
 
     li.vimeo > a
       background: url('/img/sprite.png') no-repeat -407px -28px;
@@ -195,6 +191,11 @@ body
       width: 34px;
       height: 32px;
 
+    li.instagram > a
+      background: url('/img/instagram.png');
+      width: 32px;
+      height: 32px;
+
   .copyright
     font-size 11px
     text-transform none
@@ -209,7 +210,7 @@ body
     color #222
     font-size 48px
     text-transform uppercase
-    font-weight 300
+    font-weight 100
     position relative
     letter-spacing 2px
     margin-left -5px
@@ -245,7 +246,7 @@ body
       margin-bottom 10px
 
   .professional
-    border-right 3px solid #222
+    border-right 1px solid #000
     padding-right 60px
 
   .creative
@@ -265,6 +266,7 @@ body
 
 .about-page
   max-width 800px
+  font-weight 300
 
   img.kristen
     display block
@@ -275,6 +277,8 @@ body
     font-size 16px
 
 .contact-page
+  font-weight 300
+
   .say-hi
     text-transform uppercase
     margin-bottom 0.5em
@@ -285,7 +289,7 @@ body
 
   ul.contact-methods
     list-style none
-    margin 0 0 25px
+    margin 0 0 50px
     padding 0
 
     li
@@ -302,12 +306,12 @@ body
           width: 37px;
           height: 26px;
 
-        .phone
-          display inline-block
-          margin 7px 10px -7px 0
-          background: url('/img/sprite.png') no-repeat -362px -50px;
-          width: 36px;
-          height: 30px;
+      .phone
+        display inline-block
+        margin 7px 10px -7px 0
+        background: url('/img/sprite.png') no-repeat -362px -50px;
+        width: 36px;
+        height: 30px;
 
 .work-page
   margin-left -15px

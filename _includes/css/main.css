@@ -1,5 +1,6 @@
 body {
   font-family: 'Lato', sans-serif;
+  min-width: 900px;
 }
 .clearfix {
   clear: both;
@@ -11,7 +12,7 @@ body {
 .home-wrapper .kristen-harding {
   font-size: 60px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 100;
   letter-spacing: 2px;
   position: relative;
 }
@@ -171,19 +172,6 @@ body {
 }
 .sidebar ul.social-links li a {
   display: inline-block;
-  opacity: 0.8;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  filter: alpha(opacity=80);
-  -webkit-transition: opacity 0.2s linear;
-  -moz-transition: opacity 0.2s linear;
-  -o-transition: opacity 0.2s linear;
-  -ms-transition: opacity 0.2s linear;
-  transition: opacity 0.2s linear;
-}
-.sidebar ul.social-links li a:hover {
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
 }
 .sidebar ul.social-links li.vimeo > a {
   background: url("/img/sprite.png") no-repeat -407px -28px;
@@ -200,6 +188,11 @@ body {
   width: 34px;
   height: 32px;
 }
+.sidebar ul.social-links li.instagram > a {
+  background: url("/img/instagram.png");
+  width: 32px;
+  height: 32px;
+}
 .sidebar .copyright {
   font-size: 11px;
   text-transform: none;
@@ -214,7 +207,7 @@ body {
   color: #222;
   font-size: 48px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 100;
   position: relative;
   letter-spacing: 2px;
   margin-left: -5px;
@@ -252,7 +245,7 @@ body {
   margin-bottom: 10px;
 }
 .resume .professional {
-  border-right: 3px solid #222;
+  border-right: 1px solid #000;
   padding-right: 60px;
 }
 .resume .creative {
@@ -272,6 +265,7 @@ body {
 }
 .about-page {
   max-width: 800px;
+  font-weight: 300;
 }
 .about-page img.kristen {
   display: block;
@@ -280,6 +274,9 @@ body {
 }
 .about-page p {
   font-size: 16px;
+}
+.contact-page {
+  font-weight: 300;
 }
 .contact-page .say-hi {
   text-transform: uppercase;
@@ -291,7 +288,7 @@ body {
 }
 .contact-page ul.contact-methods {
   list-style: none;
-  margin: 0 0 25px;
+  margin: 0 0 50px;
   padding: 0;
 }
 .contact-page ul.contact-methods li {
@@ -308,7 +305,7 @@ body {
   width: 37px;
   height: 26px;
 }
-.contact-page ul.contact-methods li a .phone {
+.contact-page ul.contact-methods li .phone {
   display: inline-block;
   margin: 7px 10px -7px 0;
   background: url("/img/sprite.png") no-repeat -362px -50px;
