@@ -12,15 +12,23 @@ body {
   font-size: 60px;
   text-transform: uppercase;
   font-weight: 300;
+  letter-spacing: 2px;
   position: relative;
+}
+.home-wrapper .kristen-harding strong {
+  font-weight: 400;
 }
 .home-wrapper .kristen-harding .writer-director-editor {
   position: absolute;
-  top: -2px;
+  letter-spacing: 0;
+  top: 5px;
   right: -75px;
   list-style: none;
   text-align: left;
   font-size: 13px;
+}
+.home-wrapper .kristen-harding .writer-director-editor li {
+  margin-top: -4px;
 }
 .home-nav {
   text-align: center;
@@ -79,7 +87,7 @@ body {
 }
 .sidebar,
 .content {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .sidebar {
   width: 300px;
@@ -145,6 +153,9 @@ body {
   font-size: 20px;
   font-weight: 300;
 }
+.sidebar ul.sidebar-nav li a:hover {
+  color: #bf5f61;
+}
 .content-wrapper {
   margin-left: 320px;
   padding-right: 30px;
@@ -152,18 +163,27 @@ body {
 .content-wrapper .kristen-harding {
   text-decoration: none;
   color: #222;
-  font-size: 60px;
+  font-size: 48px;
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
+  letter-spacing: 2px;
+  margin-left: -5px;
+}
+.content-wrapper .kristen-harding strong {
+  font-weight: 400;
 }
 .content-wrapper .kristen-harding .writer-director-editor {
   position: absolute;
-  top: -2px;
-  right: -75px;
+  letter-spacing: 0;
+  top: 4px;
+  right: -60px;
   list-style: none;
   text-align: left;
-  font-size: 13px;
+  font-size: 11px;
+}
+.content-wrapper .kristen-harding .writer-director-editor li {
+  margin-top: -4px;
 }
 .resume {
   width: 700px;
@@ -207,6 +227,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  float: left;
 }
 .footer-wrapper .social-footer li {
   display: inline;
@@ -245,16 +266,18 @@ body {
 }
 .footer-wrapper .copyright {
   font-size: 11px;
-  margin: 10px 0 5px;
+  margin: 10px 0 5px 310px;
+}
+.about-page {
+  max-width: 800px;
 }
 .about-page img.kristen {
   display: block;
-  margin: 0 auto;
-  width: 600px;
-  height: 400px;
+  width: 450px;
+  height: 300px;
 }
 .about-page p {
-  font-size: 18px;
+  font-size: 16px;
 }
 .contact-page .say-hi {
   text-transform: uppercase;
@@ -265,7 +288,7 @@ body {
 }
 .contact-page ul.contact-methods {
   list-style: none;
-  margin: 0 0 20px;
+  margin: 0 0 35px;
   padding: 0;
 }
 .contact-page ul.contact-methods li a {
@@ -286,11 +309,14 @@ body {
   width: 52px;
   height: 44px;
 }
+.work-page {
+  margin-left: -15px;
+}
 .work-page .video {
   display: inline-block;
-  width: 280px;
+  width: 252px;
   vertical-align: top;
-  margin: 10px;
+  margin: 4px 15px;
   text-align: center;
   color: #222;
   text-decoration: none;
@@ -299,8 +325,8 @@ body {
   position: relative;
 }
 .work-page .video > img {
-  width: 280px;
-  height: 190px;
+  width: 252px;
+  height: 171px;
   background-color: #000;
 }
 .work-page .video .video-title {
@@ -316,10 +342,10 @@ body {
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   filter: alpha(opacity=0);
   color: #fff;
-  width: 280px;
+  width: 252px;
   padding-top: 80px;
   font-size: 20px;
-  height: 110px;
+  height: 91px;
   -webkit-transition: opacity 0.2s linear;
   -moz-transition: opacity 0.2s linear;
   -o-transition: opacity 0.2s linear;
@@ -337,10 +363,11 @@ body {
   height: 400px;
 }
 .video-page .title {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 400;
+  margin-top: 5px;
 }
 .video-page .description {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
