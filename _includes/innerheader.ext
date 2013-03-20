@@ -12,9 +12,9 @@
     <li><a href="/contact">Contact</a></li>
   </ul>
   <ul class="social-links">
-    <li class="vimeo"><a href="#"></a></li>
-    <li class="twitter"><a href="#"></a></li>
-    <li class="linkedin"><a href="#"></a></li>
+    <li class="vimeo"><a href="https://vimeo.com/kristenharding" target="_blank"></a></li>
+    <li class="twitter"><a href="https://twitter.com/kiwiharding" target="_blank"></a></li>
+    <li class="linkedin"><a href="http://www.linkedin.com/pub/kristen-harding/5a/b24/6b4" target="_blank"></a></li>
   </ul>
   <div class="copyright">
     Kristen Harding &copy; 2013. Site by <a href="http://ada.mbecker.cc">Adam Becker</a>.
