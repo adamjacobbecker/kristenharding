@@ -95,6 +95,7 @@ body {
   padding-top: 10px;
 }
 .sidebar {
+  height: 100%;
   width: 300px;
   float: left;
   text-align: center;
@@ -116,11 +117,15 @@ body {
   background: url("/img/sprite.png") no-repeat -501px -101px;
   width: 56px;
   height: 71px;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
 .sidebar .current-page-logo.current-page-resume {
   background: url("/img/sprite.png") no-repeat -601px -98px;
   width: 50px;
   height: 72px;
+  margin-top: 10px;
+  margin-bottom: -10px;
 }
 .sidebar .current-page-logo.current-page-contact {
   background: url("/img/sprite.png") no-repeat -704px -93px;
@@ -160,6 +165,12 @@ body {
 }
 .sidebar ul.sidebar-nav li a:hover {
   color: #bf5f61;
+}
+.sidebar .sidebar-footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
 }
 .sidebar ul.social-links {
   list-style: none;
@@ -201,6 +212,7 @@ body {
 .content-wrapper {
   margin-left: 320px;
   padding-right: 30px;
+  padding-top: 16px;
 }
 .content-wrapper .kristen-harding {
   text-decoration: none;
@@ -246,22 +258,21 @@ body {
 }
 .resume .professional {
   border-right: 1px solid #000;
-  padding-right: 60px;
+  padding-right: 40px;
 }
 .resume .creative {
-  padding-left: 65px;
+  padding-left: 45px;
 }
 .resume .professional > span {
-  background: url("/img/sprite.png") no-repeat -173px -12px;
-  width: 175px;
-  height: 254px;
-  margin-left: -10px;
+  background: url("/img/resume.png") no-repeat -112px -3px;
+  width: 118px;
+  height: 173px;
+  margin-left: 20px;
 }
 .resume .creative > span {
-  background: url("/img/sprite.png") no-repeat -7px -6px;
-  width: 154px;
-  height: 252px;
-  margin-left: -15px;
+  background: url("/img/resume.png") no-repeat 0 0;
+  width: 107px;
+  height: 172px;
 }
 .about-page {
   max-width: 800px;
@@ -301,15 +312,15 @@ body {
 .contact-page ul.contact-methods li a .email {
   display: inline-block;
   margin: 7px 10px -7px 0;
-  background: url("/img/sprite.png") no-repeat -362px -7px;
-  width: 37px;
-  height: 26px;
+  background: url("/img/email.png");
+  width: 32px;
+  height: 28px;
 }
 .contact-page ul.contact-methods li .phone {
   display: inline-block;
   margin: 7px 10px -7px 0;
-  background: url("/img/sprite.png") no-repeat -362px -50px;
-  width: 36px;
+  background: url("/img/phone.png");
+  width: 32px;
   height: 30px;
 }
 .work-page {
