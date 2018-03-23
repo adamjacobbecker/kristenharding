@@ -8,7 +8,7 @@
   <ul class="sidebar-nav">
     <li><a href="/about">About</a></li>
     <li><a href="/work">Work</a></li>
-    <li> <a href="/files/Kristen Harding_Resume.pdf" target="_blank" class="home-nav-item">
+    <li> <a href="/files/Kristen_Harding_Resume_2018.pdf" target="_blank" class="home-nav-item">
       Resume</a></li> 
     <li><a href="/contact">Contact</a></li>
   </ul>
@@ -28,10 +28,10 @@
 <div class="content-wrapper">
   <a class="kristen-harding" href="/">
     Kristen <strong>Harding</strong>
-    <ul class="writer-director-editor">
-      <li>Writer</li>
+    <ul class="director-writer-producer">
       <li>Director</li>
-      <li>Editor</li>
+      <li>Writer</li>
+      <li>Producer</li>
     </ul>
   </a>
 
