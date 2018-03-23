@@ -28,9 +28,9 @@
 <div class="content-wrapper">
   <a class="kristen-harding" href="/">
     Kristen <strong>Harding</strong>
-    <ul class="director-writer-producer">
-      <li>Director</li>
+    <ul class="writer-director-editor">
       <li>Writer</li>
+      <li>Director</li>
       <li>Producer</li>
     </ul>
   </a>
